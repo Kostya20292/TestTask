@@ -1,0 +1,44 @@
+.header
+  &__container
+    display: flex
+    justify-content: space-between
+    padding: 24px 0 19px
+    margin-bottom: 22px
+    border-bottom: 1px solid $bg-dark
+    border-height: 960px
+  &__logo
+    width: 122px
+    height: 108px
+
+    background-color: $bg-dark
+  &__contact
+    width: 279px
+    height: 108px
+
+    background-color: $bg-dark
+  &__more
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    width: 513px
+    height: 108px
+
+    background-color: $bg-dark
+
+    text-align: right
+    &-list
+      padding: 0
+      margin: 0
+      margin-right: 22px
+
+      list-style: none
+      &-item
+        margin-bottom: 5px
+        &:last-child
+          margin-bottom: 0
+      &-link
+        color: $text-color
+        
+        text-decoration: none
+        &:hover
+          text-decoration: underline

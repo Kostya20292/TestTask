@@ -1,0 +1,76 @@
+@media (max-width: 1000px) 
+  .container
+    max-width: 800px
+
+  .header
+    &__container
+      flex-wrap: wrap
+    &__logo
+      margin-bottom: 20px
+    &__more
+      margin: 0 auto
+
+  .aside
+    display: none
+
+  .center
+    &__card
+      margin-right: 31px
+
+  .footer
+    &__container
+      flex-wrap: wrap
+    &__left
+      flex-direction: column
+      padding: 10px 0
+      &-list
+        &:first-child
+          margin-right: 0
+          margin-bottom: 20px
+    &__center
+      display: flex
+      align-items: center
+    &__right
+      margin: 20px auto 0
+
+@media (max-width: 830px) 
+  .container
+    max-width: 600px
+
+  .center
+    &__cards
+      justify-content: space-around
+    &__card
+      margin-right: 0
+    &__texts
+      flex-wrap: wrap
+      justify-content: center
+    &__text:first-child
+      margin-bottom: 20px
+
+@media (max-width: 630px)
+  .container
+    width: 90% 
+  
+  .footer
+    &__container
+      flex-wrap: wrap
+      justify-content: center
+
+@media (max-width: 450px)
+  .header
+    &__container
+      justify-content: center
+    &__contact
+      margin-bottom: 20px
+    
+  .center
+    &__header
+      width: 90%
+      padding: 10px
+      margin: 0 auto
+      margin-bottom: 20px
+    &__text
+      width: 90%
+      padding: 5px
+        

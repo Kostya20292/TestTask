@@ -1,0 +1,46 @@
+.footer
+  margin-bottom: 25px
+  &__container
+    display: flex
+    justify-content: space-between
+  &__left
+    display: flex
+    align-items: center
+    width: 297px
+    padding: 0 25px
+
+    background-color: $bg-dark
+    &-list
+      padding: 0
+      margin: 0
+      list-style: none
+      &:first-child
+        margin-right: 75px
+      &-link
+        text-decoration: none
+        color: $text-color
+        &:hover
+          text-decoration: underline
+  &__center
+    width: 297px
+
+    background-color: $bg-dark
+    &-list
+      color: $text-color
+
+      list-style: square
+      &-link
+        color: $text-color
+
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+  &__right
+    &-top,
+    &-bottom
+      width: 309px
+      height: 76px
+      
+      background-color: $bg-dark
+    &-top
+      margin-bottom: 30px
